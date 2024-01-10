@@ -41,6 +41,3 @@ my_list.reverse() #reverse the order of the list
 print(my_list)
 
 print(my_dic['name']) #print the value of the 'name' key
-
-
-
