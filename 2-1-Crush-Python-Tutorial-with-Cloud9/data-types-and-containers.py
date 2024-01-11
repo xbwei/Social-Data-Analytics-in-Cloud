@@ -55,3 +55,4 @@ print(my_tweet['visited_countries']) #this equals to the list of ["GR", "CH", "M
 print(len(my_tweet['visited_countries'])) #use len() function to count the number of items in the list    
 
 print("US" in (my_tweet['visited_countries'])) #use in operator to check whether "US" in the list
+
