@@ -41,3 +41,17 @@ my_list.reverse() #reverse the order of the list
 print(my_list)
 
 print(my_dic['name']) #print the value of the 'name' key
+
+# nested containers
+my_tweet = {
+        "tweet_id":1138,
+        "coordinates": (-75, 40),
+        "visited_countries": ["GR", "CH", "MY"]
+        }
+        
+  
+print(my_tweet['visited_countries']) #this equals to the list of ["GR", "CH", "MY"]      
+
+print(len(my_tweet['visited_countries'])) #use len() function to count the number of items in the list    
+
+print("US" in (my_tweet['visited_countries'])) #use in operator to check whether "US" in the list
