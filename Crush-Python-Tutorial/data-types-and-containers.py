@@ -2,6 +2,8 @@
 data types and containers
 """
 
+#Introduce the basic data types and containers in Python
+
 # basic data types 
 
 print(type("123"))
@@ -10,11 +12,21 @@ print(type(123.))
 
 # common string methods
 
-print("Hello World".upper()) #change to upper cases
-print("Hello World".lower()) #change to lower cases
-print("Hello World".split('W')) #split the string by 'W'
+print("Hello, World".upper()) #change to upper cases
+print("Hello, World".lower()) #change to lower cases
 
-# variable
+print("  Hello, World  ") #a string with spaces on both side
+print("  Hello, World  ".strip()) #strip spaces on both sides 
+
+print("Hello, World".split()) #split the string by space
+print("Hello, World".split(',')) #split the string based on ,
+
+print("Hello, " + "World") #concatenate two strings
+
+print(len("Hellow, World")) #count the number of characters
+print("Hellow, World"[0]) #print the first character
+
+# define variables
 
 my_name = "Andrew"
 print(my_name)
