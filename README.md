@@ -1,2 +1,3 @@
-# Social-Data-Analytics-in-Cloud
-The demo codes for the textbook of Introduction to Social Data Analytics in the Cloud.
+# Social Data Analytics in the Cloud with AI
+
+The demo codes for the textbook *Social Data Analytics in the Cloud with AI*.
