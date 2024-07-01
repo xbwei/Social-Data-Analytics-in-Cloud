@@ -2,7 +2,7 @@
 data types and containers
 """
 
-#Introduce the basic data types and containers in Python
+# Introduce the basic data types and containers in Python
 
 # basic data types 
 
