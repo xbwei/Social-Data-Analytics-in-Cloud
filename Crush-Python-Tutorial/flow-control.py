@@ -36,7 +36,7 @@ print(not None) #None is False, therefore not None return True
 # if-else statement
 
 if 2>1:  # the condition is true
-    print('2 is great then 1') #this code will be executed
+    print('2 is greater than 1') #this code will be executed
 
 else:
     print('2 is less than 1') #this line will be ignored

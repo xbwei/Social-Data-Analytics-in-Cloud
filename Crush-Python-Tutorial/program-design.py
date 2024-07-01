@@ -11,6 +11,7 @@ for number in range(5):
         print('error')
         pass
     
+    
 # define a function
 
 def calcuate_abs(input_value):
@@ -23,6 +24,7 @@ def calcuate_abs(input_value):
         
 print(calcuate_abs("a"))
 print(calcuate_abs(9))
+
 
 # class and object
 
@@ -39,6 +41,10 @@ print(my_car.report_maker()) #call the report_maker method
 
 # import a library
 
-import numpy
+import numpy #you need to pip install the numpy in terminal first
 
-help(numpy)
+help(numpy) #this line can be very slow
+
+# the Zen of  Python
+
+import this #see what will happen
