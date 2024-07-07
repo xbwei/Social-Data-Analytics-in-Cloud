@@ -42,6 +42,10 @@ print(my_name)
 my_name = "Andy"
 print(my_name)
 
+# f string 
+print(f"my name is {my_name}") #pass a variable into string
+print(f"{2*3}") #pass an expression into string
+
 # define a list
 
 my_list =[1,1,3,4] #define a list
